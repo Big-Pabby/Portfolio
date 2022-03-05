@@ -77,7 +77,7 @@ header h1 {
 .aboutme .col .row {
     display: flex;
     margin-top: 50px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .aboutme .col .row p {
@@ -134,6 +134,9 @@ footer {
     }
     .aboutme .col .row img {
         width: 300px;
+    }
+    .aboutme .col .row p {
+        margin-top: 20px;
     }
 
     .project {
