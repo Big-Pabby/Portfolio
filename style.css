@@ -46,6 +46,7 @@ i:hover {
     margin: auto;
 }
 
+/* Header */
 header {
     height: 100vh;
     display: flex;
@@ -60,6 +61,8 @@ header h1 {
     text-align: center;
 }
 
+
+/* About */
 .about {
     background: linear-gradient(to right, #196ae4, #9ab8e6);
     background-attachment: fixed;
@@ -69,55 +72,67 @@ header h1 {
     padding: 50px 0;
     color: #fff;
 }
+
 .aboutme .col {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .aboutme .col .row {
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
     align-items: center;
 }
+
 .aboutme .col .row img {
     border-radius: 50%;
 }
+
 .aboutme .col .row p {
     margin-left: 50px;
     font-size: 18px;
     line-height: 1.7;
 }
 
+
+/* Showcase Projects */
 .projects {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .project {
     display: flex;
     margin: 30px 0;
     gap: 20px;
 }
+
 .project-description {
     width: 450px;
 }
+
 .project-description p {
     margin: 20px 0;
     line-height: 1.7;
 }
+
 .project-description a {
     margin-top: 20px;
     margin-right: 10px;
 }
 
+/* Footer */
 footer {
     background: #000;
     color: #fff;
     padding: 30px;
 }
+
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -148,6 +163,7 @@ footer {
     }
     .project img {
         width: 300px;
+        height: auto;
     }
 
     .footer-content h2 {
